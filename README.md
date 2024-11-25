@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+React To-Do Application
+This is a simple To-Do application built using ReactJS and Redux. The application allows users to add, view, update, and delete tasks. It also provides functionality to mark tasks as completed or important.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Add new tasks with title, deadline, mark as completed, and mark as important.
+View all tasks in a card format.
+Update tasks including modifying title, deadline, completion status, and importance.
+Delete tasks from the list.
+Filter tasks by completed, important, and to-do (not completed) statuses.
+Technologies Used
+ReactJS: Frontend library for building user interfaces.
+Redux: State management library for managing application state.
+React Router: Declarative routing for React applications.
+Tailwind CSS: Utility-first CSS framework for styling the application.
+React Icons & Lucide React: Library providing popular icon packs as React components.
+Redux Toolkit: Toolkit for efficient Redux development including simplified store setup, action creation, and reducer logic.
+Getting Started
+To run the application locally, follow these steps:
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone this repository to your local machine.
+Navigate to the project directory.
+Install dependencies using npm or yarn:
+npm install
+or
+yarn install
+Run the development server:
+npm start
+or
+yarn start
+Open your web browser and navigate to http://localhost:3000 to view the application.
+Usage
+Use the sidebar to navigate between different sections of the application.
+Add new tasks by filling out the form in the "ToDo" section and clicking the "Add Task" button.
+View all tasks in the "Tasks" section, where you can see task details, mark tasks as completed or important, update tasks, or delete tasks.
+Filter tasks by completed, important, or to-do statuses using the sidebar links.
+Edit tasks by clicking the "Edit" button on each task card, making changes in the modal, and clicking "Save Changes."
+Delete tasks by clicking the "Delete" button on each task card.
+Deployment
+This application is deployed using Vercel Pages & Vite as a build tool.
